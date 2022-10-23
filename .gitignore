@@ -1,11 +1,3 @@
+**/config/
+**/src/__pycache__
 notfound.txt
-config/config.py
-config/__pycache__/__init__.cpython-310.pyc
-config/__pycache__/config.cpython-310.pyc
-src/__pycache__/__init__.cpython-310.pyc
-src/__pycache__/applefuncs.cpython-310.pyc
-src/__pycache__/mainfuncs.cpython-310.pyc
-src/__pycache__/spfyfuncs.cpython-310.pyc
-src/__pycache__/tidalfuncs.cpython-310.pyc
-src/__pycache__/ytfuncs.cpython-310.pyc
-
