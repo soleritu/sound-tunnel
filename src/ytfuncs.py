@@ -1,6 +1,7 @@
 from ytmusicapi import YTMusic
 from src.mainfuncs import message, what_to_move
 import sys
+import unidecode
 from time import sleep
 from config.config import ytfile
 
@@ -74,7 +75,9 @@ def move_to_ytmusic(ytmusic, playlist_info, dest_id):
     not_found = []
     try:
         for i in playlist_info:
+            i = i.replace("&@#72", " ")
             i = i.replace("&", " ")
+            i = unidecode.unidecode(i)
             search = ytmusic.search(i, "songs")
             songid = [search[0]['videoId']]
             sleep(0.5)

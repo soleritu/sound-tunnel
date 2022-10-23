@@ -1,3 +1,5 @@
 **/config/
 **/src/__pycache__
 notfound.txt
+.cache
+.creds/headers_auth.json
